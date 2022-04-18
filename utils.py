@@ -4,6 +4,8 @@ import json
 def get_candidates(path):
     with open(path, 'r', encoding='utf-8') as candidates:
         candidates_list = json.load(candidates)
+        return candidates_list
+
 
 
 def format_candidates(candidates_list):

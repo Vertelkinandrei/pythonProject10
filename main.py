@@ -21,7 +21,7 @@ def page_candidate(candidate_id):
     result = f'<img src="{candidate["picture"]}">'
 
     result += format_candidates([candidate])
-    return result + format_candidates([candidate])
+    return result
 
 
 @app.route('/skills/<skill>')
